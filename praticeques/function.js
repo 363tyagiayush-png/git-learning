@@ -42,36 +42,42 @@
 // binarySearch   
 
 let arr = [1,2,3,4,5,6,7,8
-    
+
 ]
+// target=7
+// function binarySearch(arr) {
+//     let target = 8
+//     let start = 0
+//     let last = arr.length - 1
 
-function binarySearch(arr) {
-    let target = 8
-    let start = 0
-    let last = arr.length - 1
+//     while (start <= last) {
 
-    while (start <= last) {
+//         let mid = Math.floor((start + last) / 2)
+// console.log("hello");
 
-        let mid = Math.floor((start + last) / 2)
-console.log("hello");
-
-        if (target == arr[mid]) {
-            return arr[mid]
-        } 
-        else if (target > arr[mid]) {
-            start = mid + 1
-        } 
-        else {
-            last = mid - 1
-        }
-    }
+//         if (target == arr[mid]) {
+//             return arr[mid]
+//         } 
+//         else if (target > arr[mid]) {
+//             start = mid + 1
+//         } 
+//         else {
+//             last = mid - 1
+//         }
+//     }
  
+// }
+
+// console.log(binarySearch(arr));
+
+target=8
+for (let i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
+    if (arr[i]==target) {
+        console.log("hello");
+   }
+    
 }
-
-console.log(binarySearch(arr));
-
-
-
 
 
 
