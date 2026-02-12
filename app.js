@@ -29,7 +29,7 @@ function shuffle(arr){
         const randomIndex =i+Math.floor(Math.random()*
     (arr.length-i));
 
-[arrr[i],arr[random]]
+[arrr[i],arr[randomIndex]]=[arr[randomIndex]]
     [arr[i]]
     }
     return arr;
