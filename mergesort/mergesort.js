@@ -1,3 +1,9 @@
+//merge sort 
+//merge sort is adivide an concure algorithm that recursively divides the array into smaller subarray, sotr then and
+//then 
+
+
+
 const number = [3,4,8,6,5,9,0];
 
 function mergeSort(arr){
