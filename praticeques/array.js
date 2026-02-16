@@ -23,7 +23,7 @@
 // Object kise kahte hai    key value ka pair hota hai     store klya   ye data k proprety ko store krta hai 
 
 // let obj={
-//     name:"tyagi lode",
+//     name:"tyagi ",
 //     age:22,
 //     emial:"tyagi@122"
 
@@ -82,24 +82,82 @@
 
 
 //filter 
-let arr =[10,20,30,11,21,44,51];
-let even = arr.filter((number)=> {
-    if(number%2==0){
-        return true;
-    }
-    else{
-        return false;
-    }
-});
+// let arr =[10,20,30,11,21,44,51];
+// let even = arr.filter((number)=> {
+//     if(number%2==0){
+//         return true;
+//     }
+//     else{
+//         return false;
+//     }
+// });
+// console.log(even)
+  
+// let arr = [12,'love','kunal',null];
+// let ans = arr.filter((value)=>{
+//     if(typeof(value)=='string'){
+//         return true;
+//     }
+// });
+// console.log(ans);
+
+
+//reduce
+// let arr = [10,20,30,40];
+// let ans = arr.reduce((acc,curr)=>{
+//     return acc+curr
+// });
+// console.log(ans)
 
 
 
+//sort
+// let arr = [9,1,7,4,2,8]
+// arr.sort();
+// console.log(arr);
 
 
+// for each 
+// let arr = [10,20,30]
+// arr.forEach((value,index)=>{
+//     console.log("Number:",value,"Index:",index);
+// })
 
 
+// //for in
+// let obj={
+//     name:"love",
+//     age: "25",
+//     weight:50,
+//     height:"6th feet"
+// }
+// for(let key in obj){
+//     console.log(key,obj[key]);
+// } 
 
 
+// //for of itrable abject -> arr ags
+// let arr = [10,20,30,40,50];
+// for(let value of arr){
+//     console.log(value);
+// }
 
+// let fullName = "babbar"
+// for(let value of fullName){
+//     console.log(value);
+// }
+
+//array in function
+// let arr = [10,20,30,40,50];
+
+// let getsum = (arr)=>{
+//     let sum = 0;
+//     arr.forEach((value)=>{
+//         sum = sum+value
+//     });
+//     return sum;
+// }
+// let totalsum = getsum(arr)
+// console.log(totalsum);    
 
 

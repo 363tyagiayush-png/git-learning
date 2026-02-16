@@ -43,8 +43,28 @@ function merge(left, right){
             rightindex++;
         }
         return result;
-
-
-    
 }
+
 console.log(mergeSort([3,4,8,6,5,9,0]))
+
+// let arr=new Array() 
+// let arr=[1,2,3,4]
+
+// console.log(arr.__proto__.__proto__);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
