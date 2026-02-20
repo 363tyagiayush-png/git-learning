@@ -107,11 +107,11 @@
 // }));
 // console.log(result);
 
-const sentences = [
-  "The quick brown fox",
-  "jumps over the lazy dog",
-  "The dog was really lazy"
-];
+// const sentences = [
+//   "The quick brown fox",
+//   "jumps over the lazy dog",
+//   "The dog was really lazy"
+// ];
 
 // // Step 1: Join all sentences into one string
 // const allText = sentences.join(" ");
@@ -128,14 +128,74 @@ const sentences = [
 // // Step 5: Sort alphabetically
 // const sortedWords = uniqueWords.sort();
 
-// console.log(sortedWords);
+// // console.log(sortedWords);
 
-const allText = sentences.join(" ");
-const word = allText.toLowerCase().split(/\st/);
-const filteredWords = words.filter(word => word.length >= 4);
-const uniqueWords = [...new set(filteredWords)];
-const sortedWords = uniqueWords.sort();
+// const allText = sentences.join(" ");
+// const word = allText.toLowerCase().split(/\st/);
+// const filteredWords = words.filter(word => word.length >= 4);
+// const uniqueWords = [...new set(filteredWords)];
+// const sortedWords = uniqueWords.sort();
 
 
 
+
+
+//classes && default parameters in functions
+// class Human{
+//   //properties 
+//   age = 13;
+//   wt = 80;
+//   ht = 100;
+
+// //behaviour
+// walking(){
+//   console.log("I am walking")
+// }
+// running(){
+//   console.log("I am running")
+// }
+// }
+// let obj = new Human();
+// console.log(obj.age);
+// obj.walking();
+
+//defalt peremeter
+// function sayMyName(myName = "prabhu Deva"){
+//   console.log("my Name is:" ,myName);
+// }
+// sayMyName("love")
+
+
+
+
+// let arr=[1,9,3,6,77,2]
+
+// function largestNum(arr) {
+//   let largest=arr[0]
+
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i]>largest) {
+//       largest=arr[i]
+//     }
+    
+//   }
+// return largest
+
+// }
+
+// console.log(largestNum(arr));
+
+
+// by second method   sorting se
+
+// let arr=[11,3,66,77,9]
+
+// let ans=arr.sort((a,b)=>a-b)
+// let largest=ans[ans.length-1]
+// console.log(largest);
+
+
+// let arr=[11,3,66,77,9]
+// let ans=Math.max(...arr)
+// console.log(ans);
 
