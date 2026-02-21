@@ -199,3 +199,46 @@
 // let ans=Math.max(...arr)
 // console.log(ans);
 
+
+
+// let arr =[2,5,8,11,14,7,55]
+
+// function even(arr) {
+//   let count=0
+// for (let i = 0; i < arr.length; i++) {
+//  if (arr[i] % 2 == 0) {
+//   count++
+//  }
+  
+// }
+// return count
+// }
+// console.log(even(arr));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      // recusion
+// let n=8
+
+// function numPrint(n) {
+//   if(n<0)return 0 // rukna kha hai
+//  numPrint(n-1)  // har bar kitna chalana hai
+//   console.log(n);
+// }
+
+// numPrint(n)
+
+
