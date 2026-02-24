@@ -78,7 +78,7 @@
 //   { name: 'Monitor', price: 24000, rating: 4.6, inStock: false },
 //   { name: 'Webcam', price: 9500, rating: 3.9, inStock: true },
 //   { name: 'Headphones', price: 16000, rating: 4.7, inStock: true }
-//];
+// ];
 
 // const result = products
 //   .filter(product => 
@@ -140,7 +140,7 @@
 
 
 
-//classes && default parameters in functions
+// classes && default parameters in functions
 // class Human{
 //   //properties 
 //   age = 13;
@@ -159,7 +159,7 @@
 // console.log(obj.age);
 // obj.walking();
 
-//defalt peremeter
+// defalt peremeter
 // function sayMyName(myName = "prabhu Deva"){
 //   console.log("my Name is:" ,myName);
 // }
@@ -230,7 +230,6 @@
 
 
 
-                      // recusion
 // let n=8
 
 // function numPrint(n) {
