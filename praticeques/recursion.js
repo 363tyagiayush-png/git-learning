@@ -49,12 +49,61 @@
 // }
 // temp(5)
 
-function temp(n){
-    if(n==0) return;
-    console.log(n);
-    temp(n-1);
-}
-temp(10)
+// function temp(n){
+//     if(n==0) return;
+//     console.log(n);
+//     temp(n-1);
+// }
+// temp(10)
+
+// function temp(n){
+//     if(n==0) return;
+//     temp(n-1);
+//     console.log(n);
+// }
+// temp(10)
+
+// function sum(n){
+//     if(n==1) return 1;
+//     return n + sum(n-1);
+// }
+// console.log(sum(5))
+
+// function fact(n){
+//     if(n==1) return n;
+//     return n * fact(n-1);
+// }
+// console.log(fact(5))
+
+// function bubbleSort(arr) {
+//     const n = arr.length;
+//     let swapped;
+
+//     for (let i = 0; i < n - 1; i++) {
+//         swapped = false;
+
+//         for (let j = 0; j < n - 1 - i; j++) {
+//             if (arr[j] > arr[j + 1]) {
+//                 // Swap
+//                 let temp=arr[j]
+//                 arr[j]=arr[j+1]
+//                 arr[j+1]=temp
+//                 swapped = true;
+//             }
+//         }
+
+//         // Optimization: stop if no swaps happened
+//         if (!swapped) break;
+//     }
+
+// //     return arr;
+// }
+
+// // Example
+// console.log(bubbleSort([5, 3, 8, 4, 2]));
+// Output: [2, 3, 4, 5, 8]
+
+
 
 
 

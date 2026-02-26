@@ -241,3 +241,36 @@
 // numPrint(n)
 
 
+//febonachiseries
+// let n =10;
+// let first =0; second=1;
+// process.stdout.write(first+" "+second+" ")
+
+// for(let i=0; i<=n-2; i++){
+//     let third = first + second
+//     first = second
+//     second = third
+//     process.stdout.write(third+" ");
+// }
+    
+//pattern 
+
+let  n=6
+
+for (let i=n;i>0;i--) {
+   let str=""
+
+   for (let j = 0; j < i; j++) {
+   str+="* "
+   
+  }
+
+  console.log(str);
+   
+    
+}
+
+
+
+
+
