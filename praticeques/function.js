@@ -41,9 +41,9 @@
 
 // binarySearch   
 
-let arr = [1,2,3,4,5,6,7,8
+// let arr = [1,2,3,4,5,6,7,8
 
-]
+// ]
 // target=7
 // function binarySearch(arr) {
 //     let target = 8
@@ -70,14 +70,14 @@ let arr = [1,2,3,4,5,6,7,8
 
 // console.log(binarySearch(arr));
 
-target=8
-for (let i = 0; i < arr.length; i++) {
-    console.log(arr[i]);
-    if (arr[i]==target) {
-        console.log("hello");
-   }
+// target=8
+// for (let i = 0; i < arr.length; i++) {
+//     console.log(arr[i]);
+//     if (arr[i]==target) {
+//         console.log("hello");
+//    }
     
-}
+// }
 
 
 

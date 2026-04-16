@@ -241,34 +241,165 @@
 // numPrint(n)
 
 
-//febonachiseries
-// let n =10;
-// let first =0; second=1;
-// process.stdout.write(first+" "+second+" ")
+            //febonachiseries
+            // let n =10;
+            // let first =0; second=1;
+            // process.stdout.write(first+" "+second+" ")
 
-// for(let i=0; i<=n-2; i++){
-//     let third = first + second
-//     first = second
-//     second = third
-//     process.stdout.write(third+" ");
-// }
+            // for(let i=0; i<=n-2; i++){
+            //     let third = first + second
+            //     first = second
+            //     second = third
+            //     process.stdout.write(third+" ");
+            // }
     
 //pattern 
 
-let  n=6
+// let n = 6;
 
-for (let i=n;i>0;i--) {
-   let str=""
+// for (let i = 0; i < n; i++) {
+//   let str = "";
 
-   for (let j = 0; j < i; j++) {
-   str+="* "
-   
-  }
+//   for (let j = 0; j < n - i; j++) {
+//     str += " ";  
+//   }
 
-  console.log(str);
-   
+//   for (let k = 0; k < i; k++) {
+//     str += "*  ";
+//   }
+
+//   console.log(str);
+// }
+
+
+
+// let n=5
+
+// for (let i = 1; i <=n; i++) {
+//  let str=""
+
+//   for (let j = 1; j <=i; j++) {
+// str+=j+" "
     
-}
+//   }
+
+//   console.log(str);
+  
+// }
+
+// let n = 5
+// for(let i =n;i>=1;i--){
+//  str = ""
+
+// for(let j = n; j >=i; j--){
+//   str+=j+" "
+// }
+
+// console.log(str);
+// }
+
+
+// let n = 5
+// for(let i =n;i>=1;i--){
+//  str = ""
+
+// for(let j = n; j >=i; j--){
+//   str+=String.fromCharCode(64+j)
+// }
+
+// console.log(str);
+// }
+
+
+
+// for (let i = 1; i <=n; i++) {
+//  let str=""
+
+//   for (let j = 1; j <=i; j++) {
+//  str+=String.fromCharCode(64+j)
+    
+//   }
+
+//   console.log(str);
+  
+// }
+
+
+
+
+// let n = 6;
+
+// // Upper part
+// for (let i = 1; i <= n; i++) {
+//   let str = "";
+
+//   // spaces
+//   for (let j = 1; j <= n - i; j++) {
+//     str += "  ";
+//   }
+
+//   // stars and hollow part
+//   for (let k = 1; k <= (2 * i - 1); k++) {
+//     if (k === 1 || k === (2 * i - 1)) {
+//       str += "* ";
+//     } else {
+//       str += "  ";
+//     }
+//   }
+
+//   console.log(str);
+// }
+
+// // Lower part
+// for (let i = n - 1; i >= 1; i--) {
+//   let str = "";
+
+//   // spaces
+//   for (let j = 1; j <= n - i; j++) {
+//     str += "  ";
+//   }
+
+//   // stars and hollow part
+//   for (let k = 1; k <= (2 * i - 1); k++) {
+//     if (k === 1 || k === (2 * i - 1)) {
+//       str += "* ";
+//     } else {
+//       str += "  ";
+//     }
+//   }
+
+//   console.log(str);
+// }
+
+
+//1st method
+
+// let arr1=[1,2,3,4]
+// let arr2=[5,6,7,8]
+
+  
+// for (let i = 0; i < arr2.length; i++) {
+// arr1.push(arr2[i])
+  
+// }
+
+// console.log(arr1);
+
+// 2nd method
+
+// let arr1=[1,7,3,6]
+// let arr2=[5,4,2,8]
+
+// arr1.push(arr2)
+
+
+// let ans=arr1.flat(Infinity)
+// let result=ans.sort((a,b)=>a-b)
+
+// console.log(result);
+
+
+
 
 
 

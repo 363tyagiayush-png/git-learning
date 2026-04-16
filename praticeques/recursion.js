@@ -103,11 +103,38 @@
 // console.log(bubbleSort([5, 3, 8, 4, 2]));
 // Output: [2, 3, 4, 5, 8]
 
+// febonachiseries
+// let n =10;
+// let first =0; second=1;
+// process.stdout.write(first+" "+second+" ")
+
+// for(let i=0; i<=n-2; i++){
+//     let third = first + second
+//     first = second
+//     second = third
+//     process.stdout.write(third+" ");
+//}
+
+// function feboNTerms(n, first, second){
+//     if(n==0) return
+//     let third= first + second;
+//     process.stdout.write(third+" ");
+//     feboNTerms(n-1,second, third);
+// }
+// let n= 10;
+// process.stdout.write(0+" "+1+" ");
+// feboNTerms(n-2, 0, 1)
+
+let arr = [1,2,3,4,5]
+function rev(arr) {
+    if( arr.length === 0) return []
+   
+    return rev(arr.slice(1)).concat(arr[0]);
 
 
+}
 
-
-
+console.log(rev(arr));
 
 
 
